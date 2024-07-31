@@ -29,7 +29,7 @@ const router = createBrowserRouter(createRoutesFromElements(
     <Route path="profile" element={<Profile />} >
       <Route path=":edit" element={<EditProfileForm />} />
     </Route>
-  </Route>), { basename: "/react-router-app" });
+  </Route>));
 
 function App() {
   return (
